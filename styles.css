@@ -1,16 +1,56 @@
 body {
-  background-color: white;
+  background-color: #FFF5EE;
+  background-image: url("images/Most-Beautiful-Flowers.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-right: 500px;
 }
 
 .welcome {
   margin: 10px 400px;
-  background-image: url("https://www.google.com/search?q=welcome+to+my+garden+vinyl+wall+picture&espv=2&tbm=isch&imgil=vmMS2sYO4DiLjM%253A%253BWomrnqW_ASpUgM%253Bhttp%25253A%25252F%25252Fwww.enchantingquotes.com%25252Fwetomyga.html&source=iu&pf=m&fir=vmMS2sYO4DiLjM%253A%252CWomrnqW_ASpUgM%252C_&usg=__DL2689NG0oOx9QUKe6yV7Q6lNiE%3D&biw=968&bih=658&dpr=2&ved=0ahUKEwjH0Inb26LNAhVjGlIKHaMPCFMQyjcIMQ&ei=AXRdV4fMOOO0yAKjn6CYBQ#imgrc=vmMS2sYO4DiLjM%3A");
-  background-color: #E77471;
+}
+
+.creations {
+    font-family: cursive;
 }
 
 .table-wrapper {
   position: relative;
-  border: 3px solid green;
+  border: 3px solid #7D0552;
   padding: 10px;
-  width: 325px;
+  width: 425px;
+}
+#horizon {
+  font-family: fantasy;
+}
+
+#row1{
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+#row2{
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+#row3{
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+a:link {
+  color: #52D017;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: red;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: hotpink;
+  }
 }
