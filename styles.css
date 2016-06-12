@@ -1,3 +1,10 @@
 body {
-  backround: blue;
+  background-color: white;
+}
+
+.table-wrapper {
+  position: relative;
+  border: 3px dashed green;
+  padding: 10px;
+  width: 325px;
 }
